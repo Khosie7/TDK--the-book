@@ -1,0 +1,407 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTE DOT KITCHEN - THE BOOK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/tdk.css">
+</head>
+<body>
+    <!-- navbars -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold">
+                    <img src="./assets/img/taste dot main.png" alt="logo" id="logo">
+                          TDK- the Book
+                </span>
+            </a>
+
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                       <a href="#topics" class="nav-link">About The Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="#contact" class="nav-link">Get In Touch</a>
+                     </li>
+                     <li class="nav-item d-md-none">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                     </li>
+                     <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#pricing" class="btn btn-danger">Buy Now</a>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main image and intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Pro Chef</div>
+                        <div class="display-5 text-muted">Your Cooking Skills</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <span>
+                        <img class="img-fluid" src="./assets/img/chickenchips.jpg" alt="cover">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-secondary mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="text-light">Pricing Plans</h2>
+                <p class="lead text-light">Choose a pricing plan to suit you.</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-0">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-danger fw-bold">$13.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm.html" id="starter-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-9 col-lg-4">
+                    <div class="card border-muted border-4">
+                        <div class="card-header text-center text-danger">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">eBook download & all updates</p>
+                            <p class="display-4 my-4 text-danger fw-bold">$19.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm2.html" id="complete-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtitle">download, updates & extras</p>
+                            <p class="display-5 my-4 text-danger fw-bold">$25.99</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm3.html" id="ultimate-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- topics at a glance -->
+    <section id="topics">
+        <div class="container-md overflow-hidden">
+            <div class="text-center">
+                <h2>Inside the Book..</h2>
+                <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="/images/chickenchips.jpg" class="img-fluid" alt="ebook">
+                </div>
+                <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="chapters">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                Chapter 1 - Spaghetti Bolognese
+                            </button>
+                        </h2>
+                        <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam quidem saepe repellendus voluptatem nulla itaque vitae fuga dolor, consectetur corporis architecto eligendi voluptatibus labore at totam soluta. Tempore, velit!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus mollitia officiis ipsam pariatur quas id non, aliquid ex. Distinctio repellat, quisquam perferendis molestias voluptates enim blanditiis exercitationem minus iure!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                                Chapter 2 - Smoky Jollof Rice
+                            </button>
+                        </h2>
+                        <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam quidem saepe repellendus voluptatem nulla itaque vitae fuga dolor, consectetur corporis architecto eligendi voluptatibus labore at totam soluta. Tempore, velit!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus mollitia officiis ipsam pariatur quas id non, aliquid ex. Distinctio repellat, quisquam perferendis molestias voluptates enim blanditiis exercitationem minus iure!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="true" aria-controls="chapter-3">
+                                Chapter 3 - Mashed Potatoes and Sauce
+                            </button>
+                        </h2>
+                        <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam quidem saepe repellendus voluptatem nulla itaque vitae fuga dolor, consectetur corporis architecto eligendi voluptatibus labore at totam soluta. Tempore, velit!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus mollitia officiis ipsam pariatur quas id non, aliquid ex. Distinctio repellat, quisquam perferendis molestias voluptates enim blanditiis exercitationem minus iure!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="true" aria-controls="chapter-4">
+                                Chapter 4 - Mac and Cheese
+                            </button>
+                        </h2>
+                        <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam quidem saepe repellendus voluptatem nulla itaque vitae fuga dolor, consectetur corporis architecto eligendi voluptatibus labore at totam soluta. Tempore, velit!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus mollitia officiis ipsam pariatur quas id non, aliquid ex. Distinctio repellat, quisquam perferendis molestias voluptates enim blanditiis exercitationem minus iure!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-5">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="true" aria-controls="chapter-5">
+                                Chapter 5 - African Salad
+                            </button>
+                        </h2>
+                        <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+                            <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nam quidem saepe repellendus voluptatem nulla itaque vitae fuga dolor, consectetur corporis architecto eligendi voluptatibus labore at totam soluta. Tempore, velit!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste necessitatibus mollitia officiis ipsam pariatur quas id non, aliquid ex. Distinctio repellat, quisquam perferendis molestias voluptates enim blanditiis exercitationem minus iure!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews list -->
+    <section id="reviews" class="bg-secondary">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="text-light"><i class="bi bi-stars"></i> Book Reviews</h2>
+                <p class="lead text-light">What my students have said about the book...</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">A must buy for every aspiring Chef</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione unde vel natus deserunt quasi asperiores, repellat culpa dolorem? Quia alias eligendi molestiae facere tempore temporibus magni doloribus asperiores error?</p>
+                            <small>Review by Karen</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Mandatory for all Chefs</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione unde vel natus deserunt quasi asperiores, repellat culpa dolorem? Quia alias eligendi molestiae facere tempore temporibus magni doloribus asperiores error?</p>
+                            <small>Review by Obi</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Simple, detailed and efficient</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione unde vel natus deserunt quasi asperiores, repellat culpa dolorem? Quia alias eligendi molestiae facere tempore temporibus magni doloribus asperiores error?</p>
+                            <small>Review by Smith</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Mandatory for every aspiring Chef</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione unde vel natus deserunt quasi asperiores, repellat culpa dolorem? Quia alias eligendi molestiae facere tempore temporibus magni doloribus asperiores error?</p>
+                            <small>Review by Ada</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">Detailed and concise</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione unde vel natus deserunt quasi asperiores, repellat culpa dolorem? Quia alias eligendi molestiae facere tempore temporibus magni doloribus asperiores error?</p>
+                            <small>Review by Allen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact form -->
+    <!-- form-control, form-label, form-select, input-group, input-group-text-->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+            </div>
+        
+            <div class="row justify-content-center my-5">
+
+                <div class="col-lg-6">
+                    <form id="form" novalidate>
+                       <div id="form-control-email">
+                        <label for="email" class="form-label">Email address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text bg-secondary">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" id="email" class="form-control" placeholder="e.g. allen@example.com" autocomplete="on">
+                        </div>
+                        <small class="small">Error message</small>
+                       </div>
+                        
+
+                      <div id="form-control-name" class="">
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text bg-secondary">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" id="name" class="form-control" placeholder="e.g. Allen" autocomplete="on">
+                        </div>
+                        <small class="small">Error message</small>
+                      </div>
+
+                        <label for="subject" class="form-label">What is your question about?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text bg-secondary">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+                            <select id="subject" class="form-select">
+                                <option value="pricing" selected>Pricing query</option>
+                                <option value="content">Content query</option>
+                                <option value="other">Other query</option>
+                            </select>
+                        </div>
+
+                       <div id="textarea" class="">
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea id="query" class="form-control" style="height: 140px" placeholder="Your query here..."></textarea>
+                            <label for="query" class="form-label">Your query..</label>
+                        </div>
+                            <small class="small">Error message</small>
+                       </div>
+
+                        <div class="mb-4 text-center">
+                            <button id="button" class="btn btn-secondary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get updates/modal trigger -->
+    <section class="bg-secondary">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-light">Stay in the Loop</h2>
+                <p class="lead text-light">Get the latest updates as they happen...</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-light my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam impedit, sed quidem, libero quae repellat mollitia quia rerum laboriosam nisi qui iure cupiditate doloribus asperiores, aliquam amet a esse minima.
+                    </p>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for Updates</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-header" id="modal-title">Get the latest updates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores officiis voluptates fuga soluta inventore placeat.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. allen@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="footer">
+        <div class="container">All Rights Reserved &copy; || Codes written with &hearts; by Khosie</div>
+    </section>
+
+
+
+
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="./js/tdk.js"></script>
+</body>
+</html>

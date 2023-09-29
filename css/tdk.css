@@ -1,0 +1,50 @@
+/* Style for logo */
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+/* img{
+    width: 700px;
+    height: 800px;
+} */
+
+/* Style for sections */
+section{
+    padding: 60px 0;
+}
+
+#footer{
+    padding: 5px;
+}
+
+/* Style for review stars */
+.bi-stars, .bi-star-fill, .bi-star-half{
+    color: goldenrod;
+}
+
+/* Style for error message */
+#form-control-email, #form-control-name,  #textarea{
+    position: relative;
+}
+
+.small{
+    padding: 13px;
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    color: #e74e37;
+    display: none;
+}
+
+.error{
+    border-color: #e74e37;
+}
+
+/* Style for success state */
+.success{
+    border-color: #2ecc71;
+}
+
+
+

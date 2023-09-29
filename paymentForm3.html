@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form For Ultimate Edition</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-icons-1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../My CSS Works/paymentForm.css">
+</head>
+<body>
+  <!-- logo -->
+    <img src="../images/taste dot main.png" alt="logo" id="logo">
+
+   <!-- Container -->
+    <div class="container-fluid mt-5">
+      <!-- Form -->
+      <form id="form" action="">
+        <div class="row">
+          <div id="pesronal-div" class="col-lg-8 border-lg-end border-secondary">
+            <!-- Name -->
+             <div class="intro">
+                <h3 class="text-lg-center">PERSONAL DETAILS</h3>
+                <p class="text-lg-center text-danger fst-italic font-monospace ">*Please fill in the form correctly*</p>
+             </div>
+            <!-- Personal information -->
+            <div id="first-div" class="col">
+              <h5 class="fw-light ms-lg-5"> 1. Personal Information </h5>
+                <div id="firstInp-div" class="d-flex justify-content-center">
+                  <div id="first-name-formControl" class="formControl">
+                    <div class="form-floating mb-3 mt-3 me-3">
+                      <input type="text" class="form-control" id="first-name" name="first-name" placeholder="Enter your First Name" autocomplete="on">
+                      <label for="first-name" class="form-label">First Name</label>
+                    </div>
+                      <small class="small">Error message</small>
+                  </div>
+                    <div id="last-name-formControl" class="formControl">
+                      <div class="form-floating ms-3 mb-3 mt-3">
+                        <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Enter your Last Name">
+                        <label for="last-name" class="form-label">Last Name</label>
+                      </div>
+                    <small class="small">Error message</small>
+                    </div>
+              </div>
+              <div id="email-formControl" class="formControl">
+                <div id="email-div" class="form-floating mb-3 mt-3">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email address" autocomplete="on">
+                  <label for="email" class="form-label">Email address</label>
+               </div>
+              <small id="small-text-error" class="small-text">Error message</small>
+              </div>
+            </div>
+
+            <!-- Biling address -->
+            <div class="col">
+              <h5 class="fw-light ms-lg-5"> 2. Biling address </h5>
+              <div id="street-formControl" class="formControl">
+                <div id="address-div" class="form-floating mb-3 mt-3">
+                  <input type="text" class="form-control" id="street" name="street" placeholder="Street">
+                  <label for="email" class="form-label">Street</label>
+               </div>
+                <small class="small-text">Error message</small>
+              </div>
+              <div id="ciCocount" class="d-flex justify-content-center">
+                <div id="city-formControl" class="formControl">
+                  <div class="form-floating mb-3 mt-3 me-3">
+                    <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                    <label for="city" class="form-label">City</label>
+                </div>
+                <small class="small">Error message</small>
+                </div>
+                <div id="zip-formControl" class="formControl">
+                  <div class="form-floating mb-3 mt-3 me-3">
+                    <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip code">
+                    <label for="zip" class="form-label">Zip Code:</label>
+                 </div>
+                <small class="small">Error message</small>
+                </div>
+                <div class="formControl">
+                  <div class="mb-3">
+                    <label for="country-select" class="form-label">Select a Country:</label>
+                    <select name="country-select" class="form-select" id="country-select">
+                      <option value=""></option>
+                    </select>
+                </div>
+                <small class="small">Error message</small>
+                </div>
+            </div>
+            </div>
+
+
+
+            <!-- Card Details -->
+            <div class="col">
+              <h5 class="fw-light ms-lg-5"> 3. Card Details </h5>
+              <!-- Form Check -->
+              <p id="pay-meth" class="p-3">Payment Method:</p>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked><i class="bi bi-credit-card"></i> Credit Card
+                  <label class="form-check-label" for="radio1"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"><i class="bi bi-credit-card"></i> Debit Card
+                  <label class="form-check-label" for="radio2"></label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"><i class="bi bi-paypal"></i> <b class="text-primary">Pay</b><span class="text-primary">Pal</span>
+                  <label class="form-check-label" for="radio3"></label>
+                </div>
+                <!-- Card info -->
+                <div id="cardFiLaname" class="d-flex justify-content-center">
+                  <div id="card-first-name-formControl" class="formControl">
+                    <div class="form-floating mb-3 mt-3 me-3">
+                      <input type="text" class="form-control" id="card-first-name" name="card-first-name" placeholder="Enter your First Name">
+                      <label for="card-first-name" class="form-label">First Name</label>
+                  </div>
+                  <small class="small">Error message</small>
+                  </div>
+                  <div id="card-last-name-formControl" class="formControl">
+                    <div class="form-floating ms-3 mb-3 mt-3">
+                      <input type="text" class="form-control" id="card-last-name" name="card-last-name" placeholder="Enter your Last Name">
+                      <label for="card-last-name" class="form-label">Last Name</label>
+                  </div>
+                  <small class="small">Error message</small>
+                  </div>
+                 </div>
+                <div id="cvcNumber" class="d-flex justify-content-center">
+                  <div id="card-num-formControl" class="formControl">
+                    <div class="form-floating mb-3 mt-3 me-3">
+                      <input type="text" class="form-control" id="card-number" name="card-number" placeholder="Credit Card Number">
+                      <label for="card-number" class="form-label">Credit Card Number</label>
+                    </div>
+                  <small class="small">Error message</small>
+                  </div>
+                  <div id="sec-code-formControl" class="formControl">
+                    <div class="form-floating ms-3 mb-3 mt-3">
+                      <input type="text" class="form-control" id="sec-code" name="sec-code" placeholder="CVC">
+                      <label for="sec-code" class="form-label">Security Code</label>
+                    </div>
+                  <small class="small">Error message</small>
+                  </div>
+               </div>
+               <div id="expiry-formControl" class="formControl">
+                <div id="expiry-div" class="form-floating mb-3 mt-3 me-3">
+                  <input type="text" class="form-control" id="expiry" name="expiry" placeholder="MM/YY">
+                  <label for="expiry" class="form-label">Card Expiration</label>
+                </div>
+                <small id="small-text-error" class="small-text">Error message</small>
+               </div>
+        
+            </div>
+              
+          </div>
+          <!-- Product Details -->
+            <div id="prod-div" class="col-lg-4 col-12 border-lg-start text-light bg-secondary">
+                <h3 id="prod-text" class="text-lg-center">PRODUCT DETAILS</h3>
+                <!-- Quantity and cost -->
+                <div id="qty-div" class="col">
+                  <h5 class="fw-light mt-5 ms-3"> Quantity and Cost </h5>
+                  <div class="border bg-light text-secondary qty-div">
+                    <h6 id="qty-topic" class="fw-light ms-lg-2 mt-3 mb-5">Ultimate Edition</h6>
+                    <div class="m-3 border-bottom border-secondary">
+                        <div class="d-flex justify-content-between">
+                          <label for="qty" class="form-label ml">Quantity:</label>
+                          <input type="text" class="form-control" id="ult-qty"  name="qty" placeholder="1">
+                        </div>
+                     <div class="d-flex justify-content-between">
+                      <p class="ml">Price:</p>
+                      <span id="ult-price">$25.99</span>
+                     </div>
+                    </div>
+                    <div id="bor-bot" class="m-3 d-flex justify-content-between">
+                      <p class="ml">Total:</p>
+                      <span class="text-danger" id="ult-tt-price">$25.99</span>
+                     </div>
+                  </div>
+                </div>
+                <!-- Plan details -->
+                <div id="plan-div" class="col">
+                  <h5 class="fw-light mt-5 ms-3"> Plan Details</h5>
+                  <div class="border bg-light text-secondary qty-div">
+                    <p id="plan-para" class="fw-light ms-2 mt-3 mb-3">This plan consists of tutorials to make you a pro chef. You will learn more intercontinental dishes, perks of being a pro chef and Lorem ipsum dolor sit amet consectetur adipisicing elit repellendus, fuga.</p>
+                  </div>
+                </div>
+                <!-- Review -->
+                <div id="rev-div" class="col">
+                  <h5 class="fw-light mt-5 ms-3">5000+ Happy customers</h5>
+                  <div class="border p-5 bg-light text-secondary">
+                    <div class="d-flex">
+                      <span id="pro-cus"> <b id="pro-name">A</b> </span> 
+                      <div class="ms-4">
+                        <h6 id="pro-disp-name" class="bold">Allen Roqu</h6>
+                        <div class="pb-2">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p id="rev-para" class="fw-light ms-2 mt-3 mb-3">"Yay! Finished this book and i am a badass pro chef"</p>
+                  </div>
+                </div>
+                </div>
+          </div>
+      
+      </div>
+        <div class="mt-1 p-4 border-top border-bottom border-secondary text-center">
+            <button id="button" class="btn btn-danger" type="submit">Submit</button>
+         </div>
+      </form>
+    </div>
+
+    
+
+
+
+
+    <script src="../Js/paymentForm3.js"></script>
+    <script src="../bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
