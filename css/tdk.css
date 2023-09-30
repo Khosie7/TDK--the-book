@@ -1,17 +1,90 @@
+body{
+    background-color: #c38e70;
+}
+nav{
+    background-color: #774936;
+}
 /* Style for logo */
 #logo{
     width: 100px;
     height: 100px;
 }
 
-/* img{
-    width: 700px;
-    height: 800px;
-} */
+/* Style for main image and intro*/
+#intro{
+    background-color: #c38e70;
+}
+.btn{
+    background-color: #bb7d3c;   
+}
+
+.btn:hover{
+    border: 1px solid #bb7d3c;
+}
+
+#starter-edition, #complete-edition, #ultimate-edition{
+    background-color: #774936;
+}
+
+#starter-edition:hover{
+    background-color: #c38e70;
+    border: 1px solid #774936;
+}
+
+#complete-edition:hover{
+    background-color: #c38e70;
+    border: 1px solid #774936;
+}
+
+#ultimate-edition:hover{
+    background-color: #c38e70;
+    border: 1px solid #774936;
+}
+
+#pop{
+    color: #bb7d3c;
+}
 
 /* Style for sections */
 section{
     padding: 60px 0;
+}
+
+#pricing{
+    background-color: #774936;
+    
+}
+
+.card{
+    background-color: #c38e70;
+}
+
+.card p.fw-bold{
+    color: #bb7d3c;
+}
+
+#reviews{
+    background-color: #774936;
+}
+
+.input-group-text{
+    background-color: #774936;
+}
+
+#button, #loops{
+    background-color: #774936;
+}
+
+.accordion-button{
+    background-color: #774936;
+}
+
+.accordion-item{
+    background-color: #c38e70;
+}
+
+.list-group-item{
+    background-color: #c38e70;
 }
 
 #footer{
@@ -24,7 +97,7 @@ section{
 }
 
 /* Style for error message */
-#form-control-email, #form-control-name,  #textarea{
+#form-control-email, #form-control-name,  #textarea, #modal-body{
     position: relative;
 }
 
@@ -33,6 +106,15 @@ section{
     position: absolute;
     top: 55px;
     left: -10px;
+    color: #e74e37;
+    display: none;
+}
+
+.modal-small{
+    padding: 13px;
+    position: absolute;
+    top: 130px;
+    left: 7px;
     color: #e74e37;
     display: none;
 }

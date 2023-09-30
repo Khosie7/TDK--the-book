@@ -43,6 +43,27 @@ form.addEventListener('submit', function (e) {
     }
 });
 
+
+// Get the div element by its Id for modal
+const modalForm = document.getElementById('modal-form');
+const emailModal = document.getElementById('modal-email');
+const emailModalError = document.querySelector('#modal-body small');
+console.log(emailModalError,modalForm);
+
+
+modalForm.addEventListener('submit', function (e) {
+
+  e.preventDefault();
+
+    // Validate the email Input
+    if (!isValidEmail(emailModal.value)) {
+        invalid(emailModalError,emailModal,errorTexts[0]);
+     } else {
+         valid(emailModalError,emailModal);
+     }
+
+});
+
 // function to validate email format
 function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -63,3 +84,4 @@ function valid(inputError, input) {
     input.classList.remove('error');
     input.classList.add('success');
 }
+

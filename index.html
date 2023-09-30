@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- navbars -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-xl">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold">
@@ -41,7 +41,7 @@
                         <a href="#pricing" class="nav-link">Pricing</a>
                      </li>
                      <li class="nav-item ms-2 d-none d-md-inline">
-                        <a href="#pricing" class="btn btn-danger">Buy Now</a>
+                        <a href="#pricing" class="btn">Buy Now</a>
                      </li>
                 </ul>
             </div>
@@ -55,14 +55,14 @@
                 <div class="col-md-5 text-center text-md-start">
                     <h1>
                         <div class="display-2">Pro Chef</div>
-                        <div class="display-5 text-muted">Your Cooking Skills</div>
+                        <div class="display-5 text-light">Your Cooking Skills</div>
                     </h1>
-                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <p class="lead my-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a id="buyNow-btn" href="#pricing" class="btn text-light btn-lg">Buy Now</a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span>
-                        <img class="img-fluid" src="./assets/img/chickenchips.jpg" alt="cover">
+                        <img class="img-fluid" src="./assets/img/chickenchips-removebg-preview.png" alt="cover">
                     </span>
                 </div>
             </div>
@@ -70,7 +70,7 @@
     </section>
 
     <!-- pricing plans -->
-    <section id="pricing" class="bg-secondary mt-5">
+    <section id="pricing" class="mt-5">
         <div class="container-lg">
             <div class="text-center">
                 <h2 class="text-light">Pricing Plans</h2>
@@ -80,37 +80,37 @@
             <div class="row my-5 align-items-center justify-content-center g-0">
                 <div class="col-8 col-lg-4 col-xl-3">
                     <div class="card border-0">
-                        <div class="card-body text-center py-4">
+                        <div class="card-body text-center text-light py-4">
                             <h4 class="card-title">Starter Edition</h4>
                             <p class="lead card-subtitle">eBook download only</p>
-                            <p class="display-5 my-4 text-danger fw-bold">$13.99</p>
-                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
-                            <a href="paymentForm.html" id="starter-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                            <p class="display-5 my-4 fw-bold">$13.99</p>
+                            <p class="card-text mx-5 text-light d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm.html" id="starter-edition" class="btn text-light btn-lg mt-3">Buy Now</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-9 col-lg-4">
-                    <div class="card border-muted border-4">
-                        <div class="card-header text-center text-danger">Most Popular</div>
+                    <div class="card border-muted border-4 text-light">
+                        <div id="pop" class="card-header text-center">Most Popular</div>
                         <div class="card-body text-center py-5">
                             <h4 class="card-title">Complete Edition</h4>
                             <p class="lead card-subtitle">eBook download & all updates</p>
-                            <p class="display-4 my-4 text-danger fw-bold">$19.99</p>
-                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
-                            <a href="paymentForm2.html" id="complete-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                            <p class="display-4 my-4 fw-bold">$19.99</p>
+                            <p class="card-text mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm2.html" id="complete-edition" class="btn text-light btn-lg mt-3">Buy Now</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-8 col-lg-4 col-xl-3">
                     <div class="card border-0">
-                        <div class="card-body text-center py-4">
+                        <div class="card-body text-center text-light py-4">
                             <h4 class="card-title">Ultimate Edition</h4>
                             <p class="lead card-subtitle">download, updates & extras</p>
-                            <p class="display-5 my-4 text-danger fw-bold">$25.99</p>
-                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
-                            <a href="paymentForm3.html" id="ultimate-edition" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+                            <p class="display-5 my-4 fw-bold">$25.99</p>
+                            <p class="card-text mx-5 d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos explicabo cumque, ad soluta quae.</p>
+                            <a href="paymentForm3.html" id="ultimate-edition" class="btn text-light btn-lg mt-3">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -121,14 +121,14 @@
 
     <!-- topics at a glance -->
     <section id="topics">
-        <div class="container-md overflow-hidden">
+        <div class="container-md overflow-hidden text-light">
             <div class="text-center">
                 <h2>Inside the Book..</h2>
-                <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+                <p class="lead">A quick glance at the topics you'll learn</p>
             </div>
             <div class="row my-5 g-5 justify-content-around align-items-center">
                 <div class="col-6 col-lg-4">
-                    <img src="/images/chickenchips.jpg" class="img-fluid" alt="ebook">
+                    <img src="./assets/img/chickenchips-removebg-preview.png" class="img-fluid" alt="ebook">
                 </div>
                 <div class="col-lg-6">
                 <!-- accordion -->
@@ -212,7 +212,7 @@
     </section>
 
     <!-- reviews list -->
-    <section id="reviews" class="bg-secondary">
+    <section id="reviews">
         <div class="container-lg">
             <div class="text-center">
                 <h2 class="text-light"><i class="bi bi-stars"></i> Book Reviews</h2>
@@ -304,7 +304,7 @@
                        <div id="form-control-email">
                         <label for="email" class="form-label">Email address:</label>
                         <div class="mb-4 input-group">
-                            <span class="input-group-text bg-secondary">
+                            <span class="input-group-text">
                                 <i class="bi bi-envelope-fill"></i>
                             </span>
                             <input type="email" id="email" class="form-control" placeholder="e.g. allen@example.com" autocomplete="on">
@@ -316,7 +316,7 @@
                       <div id="form-control-name" class="">
                         <label for="name" class="form-label">Name:</label>
                         <div class="mb-4 input-group">
-                            <span class="input-group-text bg-secondary">
+                            <span class="input-group-text">
                                 <i class="bi bi-person-fill"></i>
                             </span>
                             <input type="text" id="name" class="form-control" placeholder="e.g. Allen" autocomplete="on">
@@ -326,7 +326,7 @@
 
                         <label for="subject" class="form-label">What is your question about?</label>
                         <div class="mb-4 input-group">
-                            <span class="input-group-text bg-secondary">
+                            <span class="input-group-text text-light">
                                 <i class="bi bi-chat-right-dots-fill"></i>
                             </span>
                             <select id="subject" class="form-select">
@@ -345,7 +345,7 @@
                        </div>
 
                         <div class="mb-4 text-center">
-                            <button id="button" class="btn btn-secondary" type="submit">Submit</button>
+                            <button id="button" class="btn text-light" type="submit">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -354,7 +354,7 @@
     </section>
 
     <!-- get updates/modal trigger -->
-    <section class="bg-secondary">
+    <section id="loops">
         <div class="container">
             <div class="text-center">
                 <h2 class="text-light">Stay in the Loop</h2>
@@ -365,7 +365,7 @@
                     <p class="text-light my-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam impedit, sed quidem, libero quae repellat mollitia quia rerum laboriosam nisi qui iure cupiditate doloribus asperiores, aliquam amet a esse minima.
                     </p>
-                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for Updates</button>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for Updates</button>
                 </div>
             </div>
         </div>
@@ -373,22 +373,25 @@
 
     <!-- modal itself -->
     <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-header" id="modal-title">Get the latest updates</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores officiis voluptates fuga soluta inventore placeat.</p>
-                    <label for="modal-email" class="form-label">Your email address:</label>
-                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. allen@example.com">
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-danger">Submit</button>
+        <form action="" id="modal-form">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-header" id="modal-title">Get the latest updates</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="modal-body" class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores officiis voluptates fuga soluta inventore placeat.</p>
+                        <label for="modal-email" class="form-label">Your email address:</label>
+                        <input type="email" class="form-control" id="modal-email" placeholder="e.g. allen@example.com">
+                        <small class="modal-small">Error message</small>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn">Submit</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
     
     <section id="footer">
